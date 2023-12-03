@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ibarra Real Nova', 'Public Sans',serif;
+    font-style: normal;
+
+  
+}
+
+
+.header {
+    display: flex;
+    margin-top: 0.7rem;
+
+}
+#head {
+  margin-left: 9.0rem;
+  
+}
+
+.nav {
+    display: flex;
+    margin-left: 41rem;
+    width: 40rem;
+    /* padding-top: 1.5rem; */
+    font-family: "Public Sans";
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.125rem;
+    /* padding-top: 0.5rem; */
+
+}
+
+  div ul li {
+    display: inline-block;
+    margin-right: 3.5rem;
+
+  
+  
+  }
+
+  div ul li a {
+    text-decoration: none;
+    color: #33323D;
+  }
+
+
+  div ul li #home {
+    color: #5FB4A2;
+
+  }
+
+  .intro {
+    width: 24.375rem;
+    color: #33323D;
+    font-family: 'Ibarra Real Nova';
+    font-size: 3.125rem;
+    font-weight: 700;
+    line-height: 3.125rem; 
+    letter-spacing: -0.02788rem;
+    position: relative;
+    margin-left: 8.6rem;
+    margin-top: 8rem;
+  }
+
+
+  .intro  span {
+    font-family: 'Public Sans';
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.125rem;
+    margin-top: 1.3rem;
+    margin-left: 1.9rem;
+    position: absolute;
+  }
+
+
+  .int {
+    background: #203A4C;
+    color: #f4ebeb;
+    text-align: left;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.125rem;
+    border: 1px solid black;
+    width: 12.5rem;
+    height: 3rem;
+    
+  }
+
+  .about {
+    display : flex;
+    flex-direction: row;
+    width: 90rem;
+    height: 40.75rem;
+    justify-content: space-evenly;
+    margin-top: 12rem;
+  }
+
+  #image {
+    width: 43.25rem;
+  }
+  .description {
+    border-top: 1px solid rgb(223, 214, 214);
+    border-bottom: 1px solid rgb(223, 214, 214);
+    width: 21rem;
+    
+  }
+  #about-tittle {
+    color: #33323D;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 2.625rem; 
+    letter-spacing: -0.02231rem;
+  }
+  #about-text {
+    color: #33323D;
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.875rem; 
+  }
+
+  #go-to {
+    margin-top: 3rem;
+    color: #33323D;
+    font-family: "Public Sans";
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.125rem;
+    border: 1px solid #33323D;
+    width: 12.625rem;
+    height: 2.5rem; 
+    text-align: center;
+    padding-top: 2rem;
+
+
+  
+  }
+
+  .skills {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 14rem;
+  
+  }
+
+  #project {
+    width: 21.875rem;
+    height: 5.25rem;
+    color: #33323D;
+    font-family: "Ibarra Real Nova";
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 2.625rem; 
+    letter-spacing: -0.02231rem;
+    margin-left: 8.5rem;
+  }
+ .line {
+  border-top: 1px solid rgb(223, 214, 214);
+  width: 39rem;
+  margin-top: 2.5rem;
+ }
+
+  #contact {
+    text-align: center;
+    width: 10.125rem;
+    height: 1.7rem;
+    border: 1px solid #33323D;
+    padding-top: 1.2rem;
+    color: #33323D;
+    font-family: "Public Sans";
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.125rem;
+    margin-right: 7rem;
+    margin-top: 1.2rem;
+  }
+
+  footer {
+    background: #33323D;
+    width: 90rem;
+    height: 5rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9rem;
+  }
+  #footer-img {
+    width: 3.8125rem;
+    height: 2rem;
+    margin-left: 8rem;
+    padding-top: 2rem;
+
+  }
+  .footer-nav {
+    display:flex;
+    justify-content: space-between;
+    margin-left: -36rem;
+    width: 20rem;
+    padding-top: 1.5rem;
+    color: #FFF;
+    font-family: "Public Sans";
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.125rem;
+   
+  }
+
+
+  #footer-image {
+    width: 6.5rem;
+    height: 1.5rem;
+    margin-right: 3rem;
+    padding-top: 2rem;
+  }
+  
